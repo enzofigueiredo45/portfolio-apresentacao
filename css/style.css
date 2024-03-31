@@ -51,21 +51,20 @@ body {
 }
 
 .home-content p1 {
-   font-size: 17px;
-   text-align:center; 
-   font-weight: 400;
-   height: 20px;
-   margin-bottom: 24px;
-   position: absolute; 
-   top: 17%; 
-   transform: translateY(50%); 
-   left: 50%; 
-   transform: translateX(-50%); 
+    font-size: 17px;
+    text-align: center; 
+    font-weight: 400;
+    margin-bottom: 24px;
+    position: absolute; 
+    top: 17%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
 }
 
 .social-media {
     display: flex;
     justify-content: center;
+    margin-top: 24px; /* Adiciona espaço acima dos ícones de mídia social */
 }
 
 .social-media a {
@@ -79,7 +78,7 @@ body {
     border-radius: 50%;
     font-size: 20px;
     text-decoration: none;
-    margin: 0 35px; 
+    margin: 0 15px; /* Reduz o espaço entre os ícones de mídia social */
     transition: .5s ease;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
 }
@@ -102,85 +101,39 @@ body {
     }
 }
 
-
 @media screen and (max-width: 768px) {
-    
-.home-content {
-max-width: 100%;
- padding: 14px;
-}
-    
- .home-content {
- max-width: 600px;
-margin: 0 auto;
-            background-color: transparent;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px (transparent);
-        }
-
-        .home-content h3 {
-            max-width: 700px;
-            font-size: 50px;
-            opacity: 0;
-            animation: slideBottom 1s ease forwards;
-            animation-delay: .7s;
-        }
-        
-        .home-content h3:nth-last-of-type(2) {
-            margin-bottom: 25px;
-        }
-        
-        .home-content h3 span {
-            color: rgb(0, 112, 243);
-        } 
-
-    
- .home-content p1 {
-   font-size: 20px;
-   text-align:center; 
-   font-weight: 400;
-   height: 20px;
-   margin-bottom: 24px;
-   position: absolute; 
-   top: 8%; 
-   transform: translateY(50%); 
-   left: 50%; 
-   transform: translateX(-50%); 
-}
-
-    
-    .social-media a {
-        font-size: 20px;
+    .home-content {
+        max-width: 100%;
+        padding: 14px;
     }
-    
-        .home {
-            text-align: center;
-            padding: 24px;
-        }
 
-       
+    .home-content p1 {
+        font-size: 20px;
+        height: auto; /* Remova a altura fixa para permitir que o parágrafo se ajuste ao conteúdo */
+        top: 8%; /* Ajusta a posição vertical do parágrafo */
+    }
 
-        .social-media {
-            margin-top: 24px;
-        }
+    .social-media a {
+        font-size: 24px; /* Aumenta o tamanho dos ícones de mídia social */
+    }
 
-        .social-media a {
-            display: inline-block;
-            margin: 0 15px;
-            font-size: 20px;
-            color: #333;
-        }
+    .home {
+        text-align: center;
+        padding: 24px;
+    }
+
+    .social-media {
+        margin-top: 24px;
+    }
 }
 
 @media screen and (min-width: 769px) {
-    
     .home-content {
         max-width: 600px;
         padding: 20px;
     }
+
     .social-media a {
-        font-size: 20px;
+        font-size: 24px;
     }
 }
-
