@@ -110,6 +110,15 @@ body {
         padding: 10px;
     }
     
+     .home-content {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: transparent;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px (transparent);
+        }
+    
  .home-content p1 {
    font-size: 17px;
    text-align:center; 
