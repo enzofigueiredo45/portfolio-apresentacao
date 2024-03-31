@@ -118,7 +118,7 @@ margin: 0 auto;
             border-radius: 10px;
             box-shadow: 0 0 10px (transparent);
         }
-   .home-content {
+   .home-content p {
     max-width: 600px;
     margin: 0 auto; /* Centraliza o conteúdo */
     padding: 20px; /* Adiciona espaço interno ao redor do conteúdo */
