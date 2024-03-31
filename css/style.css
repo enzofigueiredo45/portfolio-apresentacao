@@ -5,11 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: rgb(55, 65, 81); /* Adicionando a cor ao * para aplicar a todos os elementos */
 }
 
 body {
     background: rgb(236 240 243);
-    color: rgb(55, 65, 81);
 }
 
 .home {
@@ -43,6 +43,7 @@ body {
 
 .home-content span {
     margin-bottom: 10px; /* Adiciona uma margem inferior ao span */
+    color: rgb(0, 112, 243); /* Restaura a cor do span */
 }
 
 .home-content p {
@@ -50,69 +51,3 @@ body {
     text-align: center;
     font-weight: 400;
     margin-bottom: 1.5em; /* Ajuste de margem */
-    position: relative;
-    top: -10px; /* Ajuste de posição vertical */
-}
-
-.social-media {
-    display: flex;
-    justify-content: center;
-    margin-top: 1.5em; /* Ajuste de margem */
-}
-
-.social-media a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border: 2px solid rgb(236 240 243);
-    border-radius: 50%;
-    font-size: 1.5em; /* Ajuste de tamanho de fonte responsiva */
-    text-decoration: none;
-    margin: 0 15px; /* Ajuste de margem */
-    transition: .5s ease;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-}
-
-.social-media a:hover {
-    background: rgb(236 240 243);
-    color: rgb(80, 78, 78);
-    box-shadow: 0 0 20px rgb(236 240 243);
-}
-
-@keyframes slideBottom {
-    0% {
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .home-content {
-        padding: 0 10px; /* Ajuste de padding */
-    }
-
-    .home-content h3 {
-        font-size: 6vw; /* Ajuste de tamanho de fonte responsiva */
-    }
-
-    .home-content h3:nth-last-of-type(2) {
-        margin-bottom: 1em; /* Ajuste de margem */
-    }
-
-    .home-content p {
-        font-size: 1.2em; /* Ajuste de tamanho de fonte responsiva */
-    }
-
-    .social-media a {
-        font-size: 1.8em; /* Ajuste de tamanho de fonte responsiva */
-        margin: 0 10px; /* Ajuste de margem */
-    }
-}
