@@ -1,3 +1,6 @@
+Peço desculpas pelo erro. Vou adicionar um estilo para o `<h1>` que corresponda à cor e espessura do `<p>`, conforme solicitado. Aqui está o código atualizado:
+
+```css
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
 
 * {
@@ -27,6 +30,16 @@ body {
     text-align: center;
     margin: 0 auto;
     padding: 0 20px; /* Ajuste de padding */
+}
+
+.home-content h1, .home-content p {
+    color: rgb(55, 65, 81); /* Mesma cor para h1 e p */
+    font-weight: 400; /* Mesma espessura para h1 e p */
+}
+
+.home-content h1 {
+    font-size: 2.5em; /* Ajuste de tamanho de fonte */
+    margin-bottom: 0.5em; /* Ajuste de margem */
 }
 
 .home-content h3 {
@@ -116,4 +129,6 @@ body {
         margin: 0 10px; /* Ajuste de margem */
     }
 }
+```
 
+Agora, o estilo do `<h1>` foi adicionado para corresponder à cor e espessura do `<p>`.
