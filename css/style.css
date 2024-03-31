@@ -24,19 +24,20 @@ body {
 
 .home-content {
     max-width: 600px;
-    text-align: center; 
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px; /* Ajuste de padding */
 }
 
 .home-content h3 {
-    max-width: 700px;
-    font-size: 60px;
+    font-size: 3.5vw; /* Ajuste de tamanho de fonte responsiva */
     opacity: 0;
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
 }
 
 .home-content h3:nth-last-of-type(2) {
-    margin-bottom: 30px;
+    margin-bottom: 1.5em; /* Ajuste de margem */
 }
 
 .home-content h3 span {
@@ -44,38 +45,30 @@ body {
 }
 
 .home-content p {
-    font-size: 16px;
+    font-size: 1.1em; /* Ajuste de tamanho de fonte responsiva */
     text-align: justify;
     font-weight: 400;
-    margin-bottom: 24px; 
-}
-
-.home-content .p1 {
-    font-size: 17px;
-    text-align:center; 
-    font-weight: 400;
-    height: 20px;
-    margin-bottom: 24px;
+    margin-bottom: 1.5em; /* Ajuste de margem */
 }
 
 .social-media {
     display: flex;
     justify-content: center;
-    margin-top: 24px;
+    margin-top: 1.5em; /* Ajuste de margem */
 }
 
 .social-media a {
     display: inline-flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     width: 40px;
     height: 40px;
     background: transparent;
     border: 2px solid rgb(236 240 243);
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 1.5em; /* Ajuste de tamanho de fonte responsiva */
     text-decoration: none;
-    margin: 0 35px; 
+    margin: 0 15px; /* Ajuste de margem */
     transition: .5s ease;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
 }
@@ -98,65 +91,25 @@ body {
     }
 }
 
-
 @media screen and (max-width: 768px) {
-    
     .home-content {
-        max-width: 100%;
-        padding: 14px;
-    }
-    
-    .home-content {
-        max-width: 600px;
-        margin: 0 auto;
-        background-color: transparent;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px (transparent);
+        padding: 0 10px; /* Ajuste de padding */
     }
 
     .home-content h3 {
-        max-width: 700px;
-        font-size: 50px;
-        opacity: 0;
-        animation: slideBottom 1s ease forwards;
-        animation-delay: .7s;
+        font-size: 6vw; /* Ajuste de tamanho de fonte responsiva */
     }
-    
+
     .home-content h3:nth-last-of-type(2) {
-        margin-bottom: 25px;
+        margin-bottom: 1em; /* Ajuste de margem */
     }
-    
-    .home-content h3 span {
-        color: rgb(0, 112, 243);
-    } 
 
-    .home-content .p1 {
-        font-size: 20px;
-        text-align:center; 
-        font-weight: 400;
-        height: 20px;
-        margin-bottom: 24px;
+    .home-content p {
+        font-size: 1.2em; /* Ajuste de tamanho de fonte responsiva */
     }
-    
-    .social-media a {
-        font-size: 20px;
-    }
-    
-    .home {
-        text-align: center;
-        padding: 24px;
-    }
-}
 
-@media screen and (min-width: 769px) {
-    
-    .home-content {
-        max-width: 600px;
-        padding: 20px;
-    }
-    
     .social-media a {
-        font-size: 20px;
+        font-size: 1.8em; /* Ajuste de tamanho de fonte responsiva */
+        margin: 0 10px; /* Ajuste de margem */
     }
 }
