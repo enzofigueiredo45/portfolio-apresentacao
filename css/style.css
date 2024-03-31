@@ -47,11 +47,9 @@ body {
 
 .home-content p {
     font-size: 1.1em; /* Ajuste de tamanho de fonte responsiva */
-    text-align: center;
+    text-align: justify;
     font-weight: 400;
     margin-bottom: 1.5em; /* Ajuste de margem */
-    position: relative;
-    top: -10px; /* Ajuste de posição vertical */
 }
 
 .social-media {
@@ -89,4 +87,30 @@ body {
     }
 
     100% {
-        transfor
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-content {
+        padding: 0 10px; /* Ajuste de padding */
+    }
+
+    .home-content h3 {
+        font-size: 6vw; /* Ajuste de tamanho de fonte responsiva */
+    }
+
+    .home-content h3:nth-last-of-type(2) {
+        margin-bottom: 1em; /* Ajuste de margem */
+    }
+
+    .home-content p {
+        font-size: 1.2em; /* Ajuste de tamanho de fonte responsiva */
+    }
+
+    .social-media a {
+        font-size: 1.8em; /* Ajuste de tamanho de fonte responsiva */
+        margin: 0 10px; /* Ajuste de margem */
+    }
+}
