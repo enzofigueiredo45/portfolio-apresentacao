@@ -110,6 +110,20 @@ body {
         padding: 10px;
     }
     
+ .home-content p1 {
+   font-size: 17px;
+   text-align:center; 
+   font-weight: 400;
+   height: 20px;
+   margin-bottom: 24px;
+   position: absolute; 
+   top: 10%; 
+   transform: translateY(50%); 
+   left: 50%; 
+   transform: translateX(-50%); 
+}
+
+    
     .social-media a {
         font-size: 16px;
     }
