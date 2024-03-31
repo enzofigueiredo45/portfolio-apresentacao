@@ -31,6 +31,7 @@ body {
 
 .home-content h3 {
     font-size: 3.5vw; /* Ajuste de tamanho de fonte responsiva */
+    font-weight: 600; /* Ajuste de peso da fonte */
     opacity: 0;
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
