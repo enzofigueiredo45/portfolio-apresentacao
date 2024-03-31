@@ -118,12 +118,23 @@ margin: 0 auto;
             border-radius: 10px;
             box-shadow: 0 0 10px (transparent);
         }
-    .home-content p {
+   .home-content {
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 20px; /* Adiciona espaço interno ao redor do conteúdo */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 40px; /* Adiciona espaço acima do conteúdo */
+}
+
+.home-content p {
     font-size: 16px;
     text-align: justify;
     font-weight: 400;
-    margin-bottom: 24px; 
+    margin-bottom: 24px; /* Espaçamento entre parágrafos */
 }
+
         .home-content h3 {
             max-width: 700px;
             font-size: 50px;
