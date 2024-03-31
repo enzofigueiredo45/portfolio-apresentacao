@@ -41,8 +41,8 @@ body {
     margin-bottom: 1.5em; /* Ajuste de margem */
 }
 
-.home-content h3 span {
-    color: rgb(0, 112, 243);
+.home-content span {
+    margin-bottom: 10px; /* Adiciona uma margem inferior ao span */
 }
 
 .home-content p {
