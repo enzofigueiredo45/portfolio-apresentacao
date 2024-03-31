@@ -105,19 +105,35 @@ body {
 
 @media screen and (max-width: 768px) {
     
-    .home-content {
-        max-width: 100%;
-        padding: 10px;
-    }
+.home-content {
+max-width: 100%;
+ padding: 10px;
+}
     
-     .home-content {
-            max-width: 600px;
-            margin: 0 auto;
+ .home-content {
+ max-width: 600px;
+margin: 0 auto;
             background-color: transparent;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px (transparent);
         }
+        .home-content h3 {
+            max-width: 700px;
+            font-size: 50px;
+            opacity: 0;
+            animation: slideBottom 1s ease forwards;
+            animation-delay: .7s;
+        }
+        
+        .home-content h3:nth-last-of-type(2) {
+            margin-bottom: 25px;
+        }
+        
+        .home-content h3 span {
+            color: rgb(0, 112, 243);
+        } 
+
     
  .home-content p1 {
    font-size: 17px;
